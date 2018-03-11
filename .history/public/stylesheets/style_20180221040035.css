@@ -1,0 +1,46 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.main-container {
+  padding: 50px;
+}
+
+a {
+  color: #00B7FF;
+}
+
+
+.row h3 {
+  width: 50%;
+  margin: 2rem auto;
+  text-align: center;
+  font-weight: bold;
+}
+
+.card {
+  margin: 1rem;
+}
+
+.readMe {
+  background: #536ab9;
+  width: 100%;
+  margin: 1rem auto;
+  padding: 1rem;
+}
+
+.readMe .control-group {
+  margin-bottom: 1rem;
+}
+
+.boldMe {
+  font-weight: bold;
+}
+
+.cardContainer .form-actions {
+  text-align: center;
+}
+
+.cardContainer .btn {
+  width: 50%;
+}

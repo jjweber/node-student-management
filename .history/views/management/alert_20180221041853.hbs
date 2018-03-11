@@ -1,0 +1,15 @@
+<div class="span10 offset1 centerThis">
+    <div class="row">
+        <h3>Delete A Student</h3>
+    </div>
+    <div class="formContainer readMe">
+        <form class="form-horizontal deleteForm" action="Delete/removeAction" method="post" enctype="multipart/form-data">
+            <input type="hidden" name="studentid" value="{{student.id}}"/>
+            <h4 class="alert alert-error">Are you sure you want to delete {{student.studentName}}</h4>
+            <div class="form-actions">
+                <button type="submit" class="btn btn-danger">Yes</button>
+                <a class="btn btn-warning" href="Index">No</a>
+            </div>
+        </form>
+    </div>
+</div>
